@@ -24,17 +24,69 @@ a {
     font-family: 'VT323', monospace;
     color: inherit;
 }
+/* Message */
+#bigBlocForm {
+    margin-top: 4rem;
+}
+#formTitle {
+    color: #f9ED00;
+    text-align: center;
+    margin-top: 2rem;
+}
+#formBloc {
+    background-color: #f9ED00;
+    text-align: center;
+    border-radius: 18px 18px 0px 0px;
+    border: 0px solid #000000;
+    padding-top: 1rem;
+}
+#pseudo {
+    margin-bottom: 1%;
+    padding: 1%;
+    border-radius: 10px;
+    font-family: 'Roboto Slab', serif;
+}
+#areaform {
+    border-radius: 10px;
+}
+textarea {
+    max-width:95%;
+    margin-bottom: 0.5rem;
+}
+#formButton {
+    background-color: #04587B;
+    color: #F9ED00;
+    width: fit-content;
+    border-radius: 5px;
+    font-family: 'VT323', monospace;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+/* Footer */
 #navbarBottom {
     background-color: #000236;
     color: #f9ED00;
     text-align: left;
+    font-size: 1.5rem;
+    line-height: 0.5rem;
 }
 .socMedia {
     text-align: right;
 }
 .imgFooter {
-    height: 3.5em;
-    width: 4em;
+    height: 2.5em;
+    width: 2.7em;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+}
+ul {
+    list-style:none;
+    margin-left:0;
+    padding-left:0;
+}
+li {
+    margin-bottom:15px;
 }
 /*La carte*/
 .img-size {

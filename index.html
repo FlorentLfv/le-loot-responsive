@@ -183,13 +183,25 @@
     </div>
 
     <!--Envoi un ptit message-->
-
-
+    <div id="bigBlockForm">
+      <h3 id="formTitle">Envoie nous un p'tit message !</h3>
+      <div id="formBloc">
+        <div class="d-flex justify-content-center">
+          <input type="text" placeholder="Ton pseudo" id="pseudo" />
+        </div>
+          <textarea name="Le p'tit message qui fait plaiz..." id="areaform" cols="180" rows="15" placeholder="Le p'tit  message qui fait plaiz..."></textarea>
+        <div class="d-flex justify-content-end">
+          <input type="button" value="Envoyer !" id="formButton" />
+        </div>
+      </div>
+    </div>
+    
+    
 
     <!--Footer-->
     <footer>
-      <nav>
-        <ul class="nav text-left" id="navbarBottom">
+      <nav id="navbarBottom">
+        <ul>
             <li class="nav-item">
               <a class="nav-link rounded" href="#">Présentation</a>
             </li>
@@ -206,17 +218,17 @@
                 <a class="nav-link rounded" href="#" >Contact</a>
             </li>
         </ul>
+        <div class="socMedia">
+          <a href="https://www.facebook.com/">
+            <img src="assets/img/facebook.png" alt="Facebook" title="Facebook" class="imgFooter" />
+          </a>
+        </div>
+        <div class="socMedia">
+          <a href="https://www.instagram.com/">
+            <img src="assets/img/insta.png" alt="Instagram" title="Instagram" class="imgFooter" />
+          </a>
+        </div>
       </nav>
-      <div class="socMedia">
-        <a href="https://www.facebook.com/">
-          <img src="assets/img/facebook.png" alt="Facebook" title="Facebook" class="imgFooter" />
-        </a>
-      </div>
-      <div class="socMedia">
-        <a href="https://www.instagram.com/">
-          <img src="assets/img/insta.png" alt="Instagram" title="Instagram" class="imgFooter" />
-        </a>
-    </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
