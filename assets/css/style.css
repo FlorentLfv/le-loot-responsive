@@ -7,13 +7,19 @@ h3,
 h4,
 h5, 
 h6 {
-    font-family: 'VT323', monospace; 
+     
     color: #f9ED00;
 }
-p {
+p,
+ {
     font-family: 'Roboto Slab', serif;
 }
 .nav {
     background-color: #f9ED00;
+    color: #000;
+    border-radius: 5px;
+}
+a {
+    font-family: 'VT323', monospace; 
     color: inherit;
 }
