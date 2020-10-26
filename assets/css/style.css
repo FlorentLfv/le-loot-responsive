@@ -13,6 +13,9 @@ h6 {
 p {
     font-family: 'Roboto Slab', serif;
 }
+.main {
+    background-color: #04587B ;
+}
 /*Navbar*/
 .navbar {
     background-color: #f9ED00;
