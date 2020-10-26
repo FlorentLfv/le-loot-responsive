@@ -19,22 +19,39 @@ p {
     border-radius: 5px;
 }
 a {
-    font-family: 'VT323', monospace; 
+    font-family: 'VT323', monospace;
     color: inherit;
 }
-
+/* Message */
+#bigBlocForm {
+    margin-top: 4rem;
+}
+#formTitle {
+    color: #f9ED00;
+    text-align: center;
+}
+#formBloc {
+    background-color: #f9ED00;
+    text-align: center;
+    border-radius: 18px 18px 0px 0px;
+    border: 0px solid #000000;
+}
 /* Footer */
 #navbarBottom {
     background-color: #000236;
     color: #f9ED00;
     text-align: left;
+    font-size: 1.5rem;
+    line-height: 0.5rem;
 }
 .socMedia {
     text-align: right;
 }
 .imgFooter {
-    height: 3.5em;
-    width: 4em;
+    height: 2.5em;
+    width: 2.7em;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
 }
 ul {
     list-style:none;
@@ -47,9 +64,18 @@ li {
 
 .event-card {
     background-color: #f9ED00;
+    box-shadow: 5px 5px 10px #000;
+    height: 25rem;
+}
+.event-card-title {
+    color: #000;
+    font-family: 'VT323', monospace;
+}
+.event-card-text {
+    font-family: 'Roboto Slab', serif;
 }
 .event-card-img {
-    width: 255px;
+    width: 100%;
 }
 
 .cardMap {
