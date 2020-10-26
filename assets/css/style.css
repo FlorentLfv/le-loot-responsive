@@ -10,8 +10,7 @@ h6 {
      
     color: #f9ED00;
 }
-p,
- {
+p {
     font-family: 'Roboto Slab', serif;
 }
 .nav {
@@ -22,4 +21,16 @@ p,
 a {
     font-family: 'VT323', monospace; 
     color: inherit;
+}
+#navbarBottom {
+    background-color: #000236;
+    color: #f9ED00;
+    text-align: left;
+}
+.socMedia {
+    text-align: right;
+}
+.imgFooter {
+    height: 3.5em;
+    width: 4em;
 }
