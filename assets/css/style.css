@@ -120,7 +120,6 @@ p > span {
 .event-card {
     background-color: #f9ED00;
     box-shadow: 5px 5px 10px #000;
-    height: 25rem;
 }
 .event-card-title {
     color: #000;
@@ -129,9 +128,17 @@ p > span {
 .event-card-text {
     font-family: 'Roboto Slab', serif;
 }
-.event-card-img {
-    width: 100%;
-}
 .card-body-img {
     padding: 0;
+}
+p > span {
+    font-weight: bold;
+}
+
+.gmap-wrapper {
+    background-color: #f9ED00;
+    box-shadow: 5px 5px 10px #000;
+}
+.gmap {
+    height: 30rem;
 }
