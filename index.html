@@ -14,70 +14,78 @@
 
 <body>
     <!--Video-->
-    <video class="mn-vh-100 min-vw-100 embed-responsive" autoplay="" muted="" loop="">
+    <video class="embed-responsive" autoplay="" muted="" loop="">
         <source src="./assets/img/Fichier 1.mp4" type="video/mp4">
     </video>
     <!--Navbar-->
-    <nav class="navbarTop">
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-                <a class="nav-link " href="#">Présentation</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Evènements</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Carte</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Maps</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link rounded" href="#">Contact</a>
-            </li>
-        </ul>
-    </nav>
+        <nav class="navbar navbar-expand-lg">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon">...</span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link px-5" href="#">Présentation</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-5" href="#">Evènement</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-5" href="#">Carte</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-5 " href="#">Maps</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-5 " href="#">Contact</a>
+                  </li>
+              </ul>
+            </div>
+        </nav>
     <!--Présentation-->
-
-
-
-
-
+        <div class="container-fluid" id="presentation">
+          <div class="row">
+            <div class="col-12 col-md-6"></div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-6"></div>
+          </div>
+        </div>
     <!--Evenement-->
     <div class="container-fluid">
       <div class="row text-center mt-5">
-        <div class="col-12 col-lg-6 col-xl-3 rounded-lg">
+        <div class="col-12 col-lg-6 col-xl-3 rounded mb-3">
           <div class="card event-card h-100">
             <div class="card-body">
               <div class="card-title"><h2 class="event-card-title">Samedi 24 Octobre : Soirée tournoi Battle Royale WarZone</h2></div>
-              <img class="m-1 event-card-img" src="assets/img/COD.jpg" alt="Kaguya" />
+              <img class="m-1 img-fluid" src="assets/img/COD.jpg" alt="Kaguya" />
               <div class="card-text event-card-text">Le top 1 gagne une bouteille de champagne, top 2 et 3 un cocktail offert par la maison !!</div>
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-6 col-xl-3 rounded-lg">
+        <div class="col-12 col-lg-6 col-xl-3 rounded mb-3">
           <div class="card event-card h-100">
             <div class="card-body">
               <div class="card-title"><h2 class="event-card-title">Samedi 31 Octobre : Soirée Halloween</h2></div>
-              <img class="m-1 event-card-img" src="assets/img/RaccoonCity2.jpg" alt="Panneau d'entrée de Racoon City" />
+              <img class="m-1 img-fluid" src="assets/img/RaccoonCity2.jpg" alt="Panneau d'entrée de Racoon City" />
               <div class="card-text event-card-text">Soirée Halloween "Welcome to racoon city" , Venez déguisés lors d'une soirée pleine de terreur , soirée spéciale jeu d'horreur.</div>
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-6 col-xl-3 rounded-lg">
+        <div class="col-12 col-lg-6 col-xl-3 rounded mb-3">
           <div class="card event-card h-100">
             <div class="card-body">
               <div class="card-title"><h2 class="event-card-title">Samedi 7 Novembre : Soirée Dessins</h2></div>
-              <img class="m-1 event-card-img" src="assets/img/dessins.jpg" alt="Dessin d'une Game Boy" />
+              <img class="m-1 img-fluid" src="assets/img/dessins.jpg" alt="Dessin d'une Game Boy" />
               <div class="card-text event-card-text">Prenez vos crayons et vos stylos !!</div>
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-6 col-xl-3 rounded-lg">
+        <div class="col-12 col-lg-6 col-xl-3 rounded mb-3">
           <div class="card event-card h-100">
             <div class="card-body">
               <div class="card-title"><h2 class="event-card-title">Samedi 14 Novembre : Soirée JOJO</h2></div>
-              <img class="m-1 event-card-img" src="assets/img/jojo.jpg" alt="Jojo" />
+              <img class="m-1 img-fluid" src="assets/img/jojo.jpg" alt="Jojo" />
               <div class="card-text event-card-text">Concours de cosplay de Jojo.</div>
             </div>
           </div>
@@ -96,16 +104,16 @@
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-4 h-75">
-                <div class="cardMap rounded text-center">
+            <div class="col-md-4 h-auto">
+                <div class="cardMap rounded text-center h-100">
                     <div class="card-header">
                         <p><span>LES WHISKYS</span><br>
                             Le Gandalf (Le old fashioned)
                             Kaguya (le whiskey sour)
                             le skyrim (Le hanky lianky)</p>
                     </div>
-                    <div class="card-body">
-                        <img src="./assets/img/kaguya.png" alt="" class="img-fluid">
+                    <div class="card-body-img">
+                        <img src="./assets/img/kaguya.png" alt="" class="img-fluid img-size">
                     </div>
                     <div class="card-footer">
                         <p><span>BASE GIN</span><br>
@@ -115,26 +123,25 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4">
-                <div class="cardMap rounded text-center">
-                    <div class="card-header">
-                        <img src="./assets/img/logo.png" alt="" class="img-fluid">
+            <div class="col-md-4 h-auto">
+                <div class="cardMap rounded text-center h-100">
+                    <div class="card-header-img">
+                        <img src="./assets/img/logo.png" alt="" class="img-fluid img-size">
                     </div>
-                    <div class="card-body">
+                    <div class="card-body p-4">
                         <p><span>GIVE UP</span><br>
                             Le scrum master (Le sazerac)
                             Senzu bean (Le bloody mary)
                             Genkidama (Lelong island iced tea)
                         </p>
                     </div>
-                    <div class="card-footer">
-                        <p>
-                            <img src="./assets/img/dio.png " alt="" class="img-fluid">
+                    <div class="card-footer-img pb-3">
+                            <img src="./assets/img/dio.png " alt="" class="img-fluid img-size">
                     </div>
                 </div>
             </div>
-            <div class="col-4">
-                <div class="cardMap rounded text-center">
+            <div class="col-md-4 h-auto">
+                <div class="cardMap rounded text-center h-100">
                     <div class="card-header">
                         <p><span>BASE RHUM</span>
                             <br>
@@ -143,10 +150,10 @@
                             Silvers Rayleigh (Le mai taiai)
                         </p>
                     </div>
-                    <div class="card-body">
-                        <img src="./assets/img/kratos.png" alt="" class="img-fluid">
+                    <div class="card-body-img">
+                        <img src="./assets/img/kratos.png" alt="" class="img-fluid img-size">
                     </div>
-                    <div class="card-footer">
+                    <div class="card-footer align-self-center">
                         <p><span>BASE VODKA</span> <br>
                             Le kratos(Le cosmopolitan)
                             Tetris (Le white russian)
@@ -161,16 +168,16 @@
 
 
     <!--Où nous trouver-->
-    <div class="container-fluid">
+    <div class="container text-center gmap-container mb-3">
       <div class="row">
-        <div class="col-12 text-center">
+        <div class="col-12">
             <h2>Où nous trouver ?</h2>
         </div>
       </div>
       <div class="row">
-        <div class="col-12 gmap-wrapper m-3 rounded w-100">
+        <div class="col-12 gmap-wrapper p-3 rounded w-100">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2570.468589531497!2d2.2992870155942997!3d49.890005379402055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e78446501e03cb%3A0xd90c13e3b01c0596!2s70%20Rue%20des%20Jacobins%2C%2080000%20Amiens!5e0!3m2!1sfr!2sfr!4v1602839887564!5m2!1sfr!2sfr"
-                  allowfullscreen="false" tabindex="0" class="gmap m-1 rounded"></iframe>
+                  allowfullscreen="false" tabindex="0" class="gmap rounded w-100"></iframe>
         </div>
       </div>
     </div>
