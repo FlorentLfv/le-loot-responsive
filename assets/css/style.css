@@ -29,6 +29,8 @@ a {
     color: #f9ED00;
     text-align: left;
 }
+/*fin navbar*/
+
 .socMedia {
     text-align: right;
 }
@@ -42,15 +44,24 @@ a {
     height: 30vh;
     object-fit: contain;
 }
-.cardMap {
-    background-color: #f9ED00;
-    color: #000;
+.card {
+    background-color: #f9ED00; 
 }
+
 p > span {
     font-weight: bold;
+    text-decoration: underline;
 }
-.card-body-img, .card-header-img, .card-footer-img, .card-header, .card-footer  {
-    padding: 0;
+.map {
+    font-size: 5rem;
+}
+.logo {
+    max-width: 50%;
+    max-height: 50%;
+}
+.dio {
+    max-width: 80%;
+    max-height: 80%;
 }
 /*fin carte*/
 
