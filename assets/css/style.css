@@ -58,3 +58,11 @@ a {
 p > span {
     font-weight: bold;
 }
+
+.gmap-wrapper {
+    background-color: #f9ED00;
+}
+.gmap {
+    width: 90%;
+    height: 30rem;
+}
