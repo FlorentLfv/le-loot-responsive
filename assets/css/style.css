@@ -22,7 +22,8 @@ a {
     font-family: 'VT323', monospace; 
     color: inherit;
 }
-<<<<<<< HEAD
+
+/* Footer */
 #navbarBottom {
     background-color: #000236;
     color: #f9ED00;
@@ -35,7 +36,14 @@ a {
     height: 3.5em;
     width: 4em;
 }
-=======
+ul {
+    list-style:none;
+    margin-left:0;
+    padding-left:0;
+}
+li {
+    margin-bottom:15px;
+}
 
 .event-card {
     background-color: #f9ED00;
@@ -44,7 +52,6 @@ a {
     width: 255px;
 }
 
->>>>>>> 41795f8ce509ea98781991288343a1d9a21380b8
 .cardMap {
     background-color: #f9ED00;
     color: #000;
