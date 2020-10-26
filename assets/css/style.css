@@ -13,10 +13,12 @@ h6 {
 p {
     font-family: 'Roboto Slab', serif;
 }
-.navbarTop {
+/*Navbar*/
+.navbar {
     background-color: #f9ED00;
     color: #000;
-    border-radius: 5px;
+    border-radius: 10px;
+    font-size: 2.5rem;
 }
 a {
     font-family: 'VT323', monospace;
@@ -61,6 +63,23 @@ ul {
 li {
     margin-bottom:15px;
 }
+/*La carte*/
+.img-size {
+    width: 100%;
+    height: 30vh;
+    object-fit: contain;
+}
+.cardMap {
+    background-color: #f9ED00;
+    color: #000;
+}
+p > span {
+    font-weight: bold;
+}
+.card-body-img, .card-header-img, .card-footer-img, .card-header, .card-footer  {
+    padding: 0;
+}
+/*fin carte*/
 
 .event-card {
     background-color: #f9ED00;
@@ -77,11 +96,6 @@ li {
 .event-card-img {
     width: 100%;
 }
-
-.cardMap {
-    background-color: #f9ED00;
-    color: #000;
-}
-p > span {
-    font-weight: bold;
+.card-body-img {
+    padding: 0;
 }
