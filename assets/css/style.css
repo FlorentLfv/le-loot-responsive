@@ -20,12 +20,19 @@ p
     border-radius: 5px;
 }
 a {
-    font-family: 'VT323', monospace; 
+    font-family: 'VT323', monospace;
     color: inherit;
 }
 
 .event-card {
     background-color: #f9ED00;
+}
+.event-card-title {
+    color: #000;
+    font-family: 'VT323', monospace;
+}
+.event-card-text {
+    font-family: 'Roboto Slab', serif;
 }
 .event-card-img {
     width: 255px;
