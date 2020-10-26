@@ -117,6 +117,31 @@ p > span {
 }
 /*fin carte*/
 
+/* section présentation */
+.about-gif {
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: 5px 5px 10px #000;
+}
+.about-text {
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    background-color: #b6b6b6;
+}
+.about-text>h2 {
+    color: #f9ED00;
+}
+.about-text-insert {
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    background-color: #f9ED00;
+}
+.about-text-insert-img {
+    width: 55px;
+}
+/* fin section présentation */
+
+/* section évènement */
 .event-card {
     background-color: #f9ED00;
     box-shadow: 5px 5px 10px #000;
@@ -131,10 +156,9 @@ p > span {
 .card-body-img {
     padding: 0;
 }
-p > span {
-    font-weight: bold;
-}
+/* fin section évènement */
 
+/* section google map */
 .gmap-wrapper {
     background-color: #f9ED00;
     box-shadow: 5px 5px 10px #000;
@@ -142,3 +166,4 @@ p > span {
 .gmap {
     height: 30rem;
 }
+/* fin section Google map */
