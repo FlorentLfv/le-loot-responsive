@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/67ec23bc55.js" crossorigin="anonymous"></script>
+
     <title>LE LOOT Bar Gaming</title>
 </head>
 
@@ -20,24 +22,24 @@
     <!--Navbar-->
         <nav class="navbar navbar-expand-lg">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon">...</span>
+              <span class="navbar-toggler-icon"><i class="fas fa-arrow-down"></i></span>
             </button>
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link px-5" href="#">Présentation</a>
+                  <a class="nav-link px-5" href="#about">Présentation</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link px-5" href="#">Evènement</a>
+                  <a class="nav-link px-5" href="#event">Evènement</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link px-5" href="#">Carte</a>
+                  <a class="nav-link px-5" href="#map">Carte</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link px-5 " href="#">Maps</a>
+                  <a class="nav-link px-5 " href="#maps">Maps</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-5 " href="#">Contact</a>
+                    <a class="nav-link px-5 " href="#contact">Contact</a>
                   </li>
               </ul>
             </div>
@@ -93,76 +95,63 @@
       </div>
     </div>
 
-
-    <!--La carte-->
+    <!--La Carte-->
+    <section id="map">
     <div class="container">
         <div class="row ">
-            <div class="col-12 text-center">
-                <h2>LA MAP</h2>
+            <div class="col-12 text-center mt-5 mb-1">
+                <h2 class="map">LA MAP !</h2>
             </div>
         </div>
     </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-4 h-auto">
-                <div class="cardMap rounded text-center h-100">
-                    <div class="card-header">
-                        <p><span>LES WHISKYS</span><br>
-                            Le Gandalf (Le old fashioned)
-                            Kaguya (le whiskey sour)
-                            le skyrim (Le hanky lianky)</p>
-                    </div>
-                    <div class="card-body-img">
-                        <img src="./assets/img/kaguya.png" alt="" class="img-fluid img-size">
-                    </div>
-                    <div class="card-footer">
-                        <p><span>BASE GIN</span><br>
-                            The world(Le cover club)
-                            Gimli(Le Gilmle)
-                            L'after burner (l'aviation)</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 h-auto">
-                <div class="cardMap rounded text-center h-100">
-                    <div class="card-header-img">
-                        <img src="./assets/img/logo.png" alt="" class="img-fluid img-size">
-                    </div>
-                    <div class="card-body p-4">
-                        <p><span>GIVE UP</span><br>
-                            Le scrum master (Le sazerac)
-                            Senzu bean (Le bloody mary)
-                            Genkidama (Lelong island iced tea)
-                        </p>
-                    </div>
-                    <div class="card-footer-img pb-3">
-                            <img src="./assets/img/dio.png " alt="" class="img-fluid img-size">
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 h-auto">
-                <div class="cardMap rounded text-center h-100">
-                    <div class="card-header">
-                        <p><span>BASE RHUM</span>
-                            <br>
-                            Saitama (Daiquiri)
-                            Z event (Le mojito)
-                            Silvers Rayleigh (Le mai taiai)
-                        </p>
-                    </div>
-                    <div class="card-body-img">
-                        <img src="./assets/img/kratos.png" alt="" class="img-fluid img-size">
-                    </div>
-                    <div class="card-footer align-self-center">
-                        <p><span>BASE VODKA</span> <br>
-                            Le kratos(Le cosmopolitan)
-                            Tetris (Le white russian)
-                            Donkey Kong (Cervelle de singe)</p>
-                    </div>
-                </div>
-            </div>
+    <div class="card-deck text-center">
+        <div class="card pt-2">
+            <p><span>LES WHISKYS</span><br>
+                Le Gandalf (Le old fashioned)<br>
+                Kaguya (le whiskey sour)<br>
+                le skyrim (Le hanky lianky)</p>
+          <div class="card-body">
+            <img src="./assets/img/kaguya.png" class="img-fluid" alt="...">
+          </div>
+          <div class="gin">
+            <p><span>BASE GIN</span><br>
+                The world(Le cover club)<br>
+                Gimli(Le Gilmle)<br>
+                L'after burner (l'aviation)</p>
+          </div>
         </div>
-    </div>
+        <div class="card text-center pt-2">
+          <img src="./assets/img/logo.png" class="img-fluid logo mx-auto" alt="...">
+          <div class="card-body">
+            <p><span>GIVE UP</span><br>
+                Le scrum master (Le sazerac)<br>
+                Senzu bean (Le bloody mary)<br>
+                Genkidama (Lelong island iced tea)
+            </p>
+          </div>
+          <div class="dio text-center mx-auto">
+            <img src="./assets/img/dio.png" alt="" class="img-fluid dio">
+          </div>
+        </div>
+        <div class="card text-center pt-2">
+            <p><span>BASE RHUM</span>
+                <br>
+                Saitama (Daiquiri)<br>
+                Z event (Le mojito)<br>
+                Silvers Rayleigh (Le mai taiai)
+            </p>
+          <div class="card-body mx-auto">
+              <img src="./assets/img/kratos.png" alt="" class="img-fluid">
+          </div>
+          <div class="kratos">
+            <p><span>BASE VODKA</span> <br>
+                Le kratos(Le cosmopolitan)<br>
+                Tetris (Le white russian)<br>
+                Donkey Kong (Cervelle de singe)</p>
+          </div>
+        </div>
+      </div>
+      </section>
 
 
 
@@ -203,19 +192,19 @@
       <nav id="navbarBottom">
         <ul>
             <li class="nav-item">
-              <a class="nav-link rounded" href="#">Présentation</a>
+              <a class="nav-link rounded" href="#about">Présentation</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link rounded" href="#">Evènements</a>
+              <a class="nav-link rounded" href="#event">Evènements</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link rounded" href="#">Carte</a>
+              <a class="nav-link rounded" href="#map">Carte</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link rounded" href="#">Maps</a>
+              <a class="nav-link rounded" href="#maps">Maps</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link rounded" href="#" >Contact</a>
+                <a class="nav-link rounded" href="#contact" >Contact</a>
             </li>
         </ul>
         <div class="socMedia">
