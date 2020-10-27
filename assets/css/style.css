@@ -14,7 +14,10 @@ p {
     font-family: 'Roboto Slab', serif;
 }
 .main {
-    background-color: #04587B ;
+    background-color: #04587B;
+    padding: 1rem;
+    margin-top: 3rem;
+    border-radius: 25px 25px 0px 0px ;
 }
 /*Navbar*/
 .navbar {
