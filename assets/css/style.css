@@ -28,7 +28,35 @@ a {
     color: inherit;
 }
 /* Message */
-
+#titleForm {
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+    color: #F9ED00;
+    margin-top: 1%;
+    text-align: center;
+}
+form {
+    background-color: #F9ED00;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 2%;
+    border-radius: 10px;
+    border-radius: 18px 18px 0px 0px;
+    border: 0px solid #000000;
+}
+#form-group-pseudo {
+    margin: 0.5rem auto 1rem;
+    border-radius: 10px;
+    font-family: 'Roboto Slab', serif;
+    width: 12rem;
+}
+.btn {
+    background-color: #04587B;
+    color: #F9ED00;
+    width: 6rem;
+    border-radius: 5px;
+    font-family: 'VT323', monospace;
+}
 /* Footer */
 #navbarBottom {
     background-color: #000236;
@@ -36,6 +64,9 @@ a {
     text-align: left;
     font-size: 1.5rem;
     line-height: 0.5rem;
+}
+footer {
+    background-color: #000236;
 }
 /*fin navbar*/
 
