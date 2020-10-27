@@ -177,7 +177,6 @@
                 </div>
             </div>
         </div>
-    </section>
     <!--Où nous trouver-->
     <div class="container text-center gmap-container mb-3" id="maps">
         <div class="row">
@@ -193,21 +192,32 @@
             </div>
         </div>
     </div>
-    <!--Envoi un ptit message-->
-    <div id="bigBlockForm">
-        <h3 id="formTitle">Envoie nous un p'tit message !</h3>
-        <div id="formBloc">
-            <div class="d-flex justify-content-center">
-                <input type="text" placeholder="Ton pseudo" id="pseudo" />
-            </div>
-            <textarea name="Le p'tit message qui fait plaiz..." id="areaform" cols="180" rows="15"
-                placeholder="Le p'tit  message qui fait plaiz..."></textarea>
-            <div class="d-flex justify-content-end">
-                <input type="button" value="Envoyer !" id="formButton" />
-            </div>
-        </div>
-    </div>
 
+    <!--Envoi un ptit message-->
+    <div id="titleForm">Envoie nous un p'tit message !</div>
+    <form>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-lg-2 offset-lg-5">
+                    <div id="form-group-pseudo">
+                    <input type="pseudo" class="form-control" id="InputPseudo" aria-describedby="pseudoHelp" placeholder="Ton pseudo" />
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <textarea class="form-control" placeholder="Le p'tit message qui fait plaiz..." rows="6"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-end">
+                <div class="col offset-11">
+                    <button type="submit" class="btn">Envoyer !</button>
+                </div>
+            </div>
+        </div>            
+    </form>
     <!--Footer-->
     <footer>
         <div class="container-fluid">
