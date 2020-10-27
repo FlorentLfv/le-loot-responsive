@@ -74,6 +74,9 @@ textarea {
     font-size: 1.5rem;
     line-height: 0.5rem;
 }
+footer {
+    background-color: #000236;
+}
 /*fin navbar*/
 
 .socMedia {
