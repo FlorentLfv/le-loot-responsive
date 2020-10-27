@@ -130,6 +130,7 @@ p > span {
     border-bottom-right-radius: 50px;
     border-top-left-radius: 50px;
     background-color: #b6b6b6;
+    box-shadow: 5px 5px 10px #000;
 }
 .about-text>h2 {
     color: #f9ED00;
