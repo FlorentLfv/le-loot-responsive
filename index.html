@@ -181,19 +181,22 @@
             </div>
         </div>
         <!--Envoi un ptit message-->
-        <div id="bigBlocForm">
-            <h3 id="formTitle">Envoie nous un p'tit message !</h3>
-            <div id="formBloc">
-                <div class="d-flex justify-content-center">
-                    <input type="text" placeholder="Ton pseudo" id="pseudo" />
-                </div>
-                <textarea name="Le p'tit message qui fait plaiz..." id="areaform" cols="180" rows="15"
-                    placeholder="Le p'tit  message qui fait plaiz..."></textarea>
-                <div class="d-flex justify-content-end">
-                    <input type="button" value="Envoyer !" id="formButton" />
-                </div>
+        <form>
+            <div class="form-group">
+              <label for="InputPseudo">Pseudo</label>
+              <input type="pseudo" class="form-control" id="InputPseudo" aria-describedby="pseudoHelp" value="Ton pseudo">
             </div>
-        </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+          
         <!--Footer-->
         <footer>
             <nav id="navbarBottom">
